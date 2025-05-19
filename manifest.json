@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§aSelaura Lite§r §dv1.0§r",
+		"description": "§7The Selaura Authors (website: https://selauraclient.com)§r",
+		"uuid": "3a40ba26-25a3-4ea3-b3ce-27d29b5e0fcc",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "CHYVES",
+			"type": "resources",
+			"uuid": "28432a7a-5210-4868-9aa9-6f4a179a5f9b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "namespace": "selaura_config",
+    "keys": {
+        "type": "panel",
+        /*
+        Variables below are used to store the values of the config, you can set them to TRUE or FALSE, or a numeric value.
+        */
+        "$test": false
+    }
+}
