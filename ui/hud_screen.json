@@ -1,24 +1,27 @@
 {
- "namespace": "hud",
-   "hud_screen": {
-      "always_accepts_input": true,
-      "send_telemetry": false,
-      "should_steal_mouse": true,
-      "render_only_when_topmost": false,
-      "$use_loading_bars": false,
-      "$screen_animations": []
-   },
-   "hud_content": {
+  "namespace": "hud",
+  "hud_screen": {
+    "always_accepts_input": true,
+    "send_telemetry": false,
+    "should_steal_mouse": true,
+    "render_only_when_topmost": false,
+    "$use_loading_bars": false,
+    "$screen_animations": []
+  },
+  "hud_content": {
     "modifications": [
       {
         "array_name": "controls",
         "operation": "insert_front",
         "value": [
           {
-            "selaura_hud@sc_hud.selaura_hud_main_panel": {}     
+            "selaura_hud@sc_hud.selaura_hud_main_panel": {}
+          },
+          {
+            "selaura_mm@sc_mm.selura_mod_menu_main_panel": {}
           }
         ]
-      } 
+      }
     ]
   }
 }
