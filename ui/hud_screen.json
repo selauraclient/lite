@@ -18,7 +18,7 @@
             "selaura_hud@sc_hud.selaura_hud_main_panel": {}
           },
           {
-            "selaura_mm@sc_mm.selura_mod_menu_main_panel": {}
+            "selaura_mm@sc_mm.selura_modmenu_main_panel": {}
           }
         ]
       }
