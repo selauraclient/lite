@@ -1,0 +1,28 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        "render_method:wither_boss_armor": {
+            "+defines": [
+                "USE_MULTITEXTURE"
+            ],
+            "+states": [
+                "DisableAlphaWrite"
+            ],
+            "msaaSupport": "Both",
+            "+samplerStates": [
+                {
+                    "samplerIndex": 0,
+                    "textureWrap": "Clamp"
+                },
+                {
+                    "samplerIndex": 1,
+                    "textureWrap": "Clamp"
+                },
+                {
+                    "samplerIndex": 2,
+                    "textureWrap": "Clamp"
+                }
+            ]
+        }
+    }
+}
